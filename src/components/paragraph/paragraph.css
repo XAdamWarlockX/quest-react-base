@@ -1,0 +1,13 @@
+.p {
+    width: 500px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+}
+
+@media (max-width:480px) {
+    .p {
+        width: 250px;
+        font-size: 14px;
+    }
+}
